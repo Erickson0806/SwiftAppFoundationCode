@@ -14,6 +14,9 @@
 		9BA749771C9FEF5D0050FDCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA749751C9FEF5D0050FDCE /* LaunchScreen.storyboard */; };
 		9BA749821C9FEF8B0050FDCE /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7497F1C9FEF8B0050FDCE /* ColorExtension.swift */; };
 		9BA749831C9FEF8B0050FDCE /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA749801C9FEF8B0050FDCE /* DateExtension.swift */; };
+		9BA749891C9FF0DA0050FDCE /* AppMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA749861C9FF0DA0050FDCE /* AppMacro.swift */; };
+		9BA7498A1C9FF0DA0050FDCE /* ColorMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA749871C9FF0DA0050FDCE /* ColorMacro.swift */; };
+		9BA7498B1C9FF0DA0050FDCE /* NSNotificationMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA749881C9FF0DA0050FDCE /* NSNotificationMacro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		9BA749781C9FEF5D0050FDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BA7497F1C9FEF8B0050FDCE /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		9BA749801C9FEF8B0050FDCE /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		9BA749861C9FF0DA0050FDCE /* AppMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMacro.swift; sourceTree = "<group>"; };
+		9BA749871C9FF0DA0050FDCE /* ColorMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorMacro.swift; sourceTree = "<group>"; };
+		9BA749881C9FF0DA0050FDCE /* NSNotificationMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSNotificationMacro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		9BA7496B1C9FEF5D0050FDCE /* AppFoundationCodeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9BA749851C9FF0DA0050FDCE /* Macro */,
 				9BA7497E1C9FEF800050FDCE /* Extension */,
 				9BA7496C1C9FEF5D0050FDCE /* AppDelegate.swift */,
 				9BA7496E1C9FEF5D0050FDCE /* ViewController.swift */,
@@ -76,6 +83,16 @@
 				9BA749801C9FEF8B0050FDCE /* DateExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		9BA749851C9FF0DA0050FDCE /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				9BA749861C9FF0DA0050FDCE /* AppMacro.swift */,
+				9BA749871C9FF0DA0050FDCE /* ColorMacro.swift */,
+				9BA749881C9FF0DA0050FDCE /* NSNotificationMacro.swift */,
+			);
+			path = Macro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA7498A1C9FF0DA0050FDCE /* ColorMacro.swift in Sources */,
+				9BA749891C9FF0DA0050FDCE /* AppMacro.swift in Sources */,
 				9BA749821C9FEF8B0050FDCE /* ColorExtension.swift in Sources */,
 				9BA749831C9FEF8B0050FDCE /* DateExtension.swift in Sources */,
+				9BA7498B1C9FF0DA0050FDCE /* NSNotificationMacro.swift in Sources */,
 				9BA7496F1C9FEF5D0050FDCE /* ViewController.swift in Sources */,
 				9BA7496D1C9FEF5D0050FDCE /* AppDelegate.swift in Sources */,
 			);
